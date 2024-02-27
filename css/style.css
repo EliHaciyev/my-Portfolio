@@ -1,0 +1,50 @@
+html, body {
+  font-family: 'DM Sans',sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1200px;
+}
+
+/* NAV  */
+
+.nav {
+  padding: 20px 0;
+  border-bottom: 1px solid rgb(38, 41, 45);
+  background: rgb(23, 23, 24);
+  color: #fff;
+}
+.nav-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 30px;
+  row-gap: 20px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-family: Poppins;
+  font-size: 24px;
+}
+.logo strong {
+  font-weight: 700;
+}
+.logo a {
+  color: rgb(255, 255, 255);
+}
+
+.nav-list {
+  display: flex;
+  column-gap: 40px;
+}
+
+.nav-list a {
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
